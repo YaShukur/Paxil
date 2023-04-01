@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background: url(../Images/Celeste/Celeste_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #6479E4;
+    margin: 0;
+}
+
+a:link {
+    color: #E63946;
+}
+
+a:visited {
+    color: #E63946;
+}
+
+a:hover {
+    color: #732fe0;
+}
+
+a:active {
+    color: #E63946;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+.header{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    left: 0px;
+    top: 0px;
+    background-color: #1D3557;
+    display: flex;
+    justify-content: space-between;
+}
+
+.into_header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Paxil_logo{
+    height: 5vh;
+    margin-left: 1vw;
+}
+
+.Paxil{
+    height: 4vh;
+    margin-left: 1vw;
+}
+
+.header_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E63946;
+    margin-right: 1vw;
+}
+
+
+/* main */
+
+
+main{
+    margin: 0;
+}
+
+table{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #161A1D;
+    border-color: #D9D9D9;
+    margin-left: 1vw;
+}
+
+.main_div{
+    margin-left: 15vw;
+    margin-top: 1vh;
+    width: 70vw;
+    background: rgba(25, 35, 36, 0.7);
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    margin-top: 14vh;
+    margin-left: 15vw;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu_text{
+    font-family: Roboto Slab;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 1vw;
+}
+
+.big_main_text{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.main_text{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.abzac{
+    width: 64vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.helper{
+    display: flex;
+}
+
+.helped_main_text{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFFFF;
+    width: 40vw;
+}
+
+.mountain{
+    width: 15vw;
+    margin-left: 9vw;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin: 0px;
+    margin-top: 8vh;
+    background: #26206F;
+    width: 100vw;
+}
+
+.footer_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.into_footer_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.special{
+    align-items: center;
+}
+
+.Big_footer_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E63946;
+    margin-left: 2vw;
+}
+
+.Small_footer_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E63946;
+    margin-left: 2vw;
+    align-self: start;
+}
+
+.Footer_logo{
+    width: 2.5vw;
+    margin-right: 0.7vw;
+}
+
+
+/*break points*/
+
+
+@media(min-width:1201px) and (max-width:1919px){
+
+}
+
+
+@media(min-width:1025px) and (max-width:1200px){
+    .Paxil_text{
+        font-size: 29px;
+    }
+}
+
+
+@media(min-width:769px) and (max-width:1024px){
+    .Paxil_text{
+        font-size: 27px;
+    }
+
+    .Big_footer_text{
+        font-size: 20px;
+    }
+
+    .Small_footer_text{
+        font-size: 12px;
+    }
+}
+
+
+@media(min-width:481px) and (max-width:768px){
+    .Paxil_logo{
+        height: 4vh;
+        margin-left: 1vw;
+    }
+
+    .Paxil{
+        height: 3vh;
+        margin-left: 1vw;
+    }
+
+    .header_text{
+        font-size: 20px;
+    }
+    .Paxil_text{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .Big_footer_text{
+        font-size: 15px;
+    }
+
+    .Small_footer_text{
+        font-size: 5px;
+    }
+
+    .Footer_logo{
+        width: 3.5vw;
+    }
+}
+
+
+@media(min-width:320px) and (max-width:480px){
+    .Paxil_logo{
+        display: none;
+    }
+
+    .Paxil{
+        height: 3vh;
+        margin-left: 1vw;
+    }
+
+    .header_text{
+        font-size: 17px;
+    }
+
+    .Paxil_text{
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .Big_footer_text{
+        font-size: 10px;
+    }
+
+    .Small_footer_text{
+        font-size: 5px;
+    }
+
+    .Footer_logo{
+        width: 5.5vw;
+    }
+}

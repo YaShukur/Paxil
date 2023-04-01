@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #6479E4;
+    margin: 0;
+}
+
+a:link {
+    color: #E63946;
+}
+
+a:visited {
+    color: #E63946;
+}
+
+a:hover {
+    color: #732fe0;
+}
+
+a:active {
+    color: #E63946;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+.header{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    left: 0px;
+    top: 0px;
+    background-color: #1D3557;
+    display: flex;
+    justify-content: space-between;
+}
+
+.into_header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Paxil_logo{
+    height: 5vh;
+    margin-left: 1vw;
+}
+
+.Paxil{
+    height: 4vh;
+    margin-left: 1vw;
+}
+
+.header_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E63946;
+    margin-right: 1vw;
+}
+
+
+/* main */
+
+
+main{
+    margin: 0;
+}
+
+.retro_design{
+    position: absolute;
+    width: 44vw;
+    left: 0px;
+    top: 8vh;
+    z-index: -10000;
+}
+
+.Osminojek_div{
+    margin-top: 24vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.OSMINOJEK{
+    width: 14vw;
+}
+
+.Paxil_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 1000;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.Paxil_text_1{
+    width: 60vw;
+}
+
+.Main_div_1{
+    margin-top: 5vw;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 66.5vw;
+}
+
+.Main_div_2{
+    margin-top: 5vw;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35.5vw;
+}
+
+.Main_div_3{
+    margin-top: 5vw;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 85.5vw;
+}
+
+.Into_main_div{
+    background: #2B2D42;
+    border-radius: 1.7vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.Into_into_main_div{
+    margin-left: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.Big_main_game{
+    margin-left: 1.5vw;
+    width: 14vw;
+}
+
+.Small_main_game{
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    width: 17vw;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin: 0px;
+    margin-top: 8vh;
+    background: #26206F;
+    width: 99.1vw;
+}
+
+.footer_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.into_footer_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.special{
+    align-items: center;
+}
+
+.Big_footer_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E63946;
+    margin-left: 2vw;
+}
+
+.Small_footer_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E63946;
+    margin-left: 2vw;
+    align-self: start;
+}
+
+.Footer_logo{
+    width: 2.5vw;
+    margin-right: 0.7vw;
+}
+
+/* X and O*/
+
+
+.Purplle_x_1{
+    position: absolute;
+    top: 5vw;
+    margin-left: 65vw;
+    width: 5vw;
+    transform: rotate(-6.8deg);
+    z-index: -1000;
+}
+
+.Purplle_x_2{
+    position: absolute;
+    top: 47vw;
+    margin-left: 70vw;
+    width: 5vw;
+    transform: rotate(21.39deg);
+    z-index: -1000;
+}
+
+.Purplle_x_3{
+    position: absolute;
+    top: 70vw;
+    margin-left: 83vw;
+    width: 5vw;
+    transform: rotate(13.68deg);
+    z-index: -1000;
+}
+
+.Purplle_o_1{
+    position: absolute;
+    top: 28vw;
+    margin-left: 42vw;
+    width: 5vw;
+    z-index: -1000;
+}
+
+.Purplle_o_2{
+    position: absolute;
+    top: 94vw;
+    margin-left: 1vw;
+    width: 5vw;
+    z-index: -1000;
+}
+
+.Purplle_o_3{
+    position: absolute;
+    top: 110vw;
+    margin-left: 85vw;
+    width: 5vw;
+    z-index: -1000;
+}
+
+.Blue_x_1{
+    position: absolute;
+    top: 59vw;
+    margin-left: 50vw;
+    width: 5vw;
+    transform: rotate(-34.14deg);
+    z-index: -1000;
+}
+
+.Blue_x_2{
+    position: absolute;
+    top: 92vw;
+    margin-left: 45vw;
+    width: 5vw;
+    transform: rotate(22.65deg);
+    z-index: -1000;
+}
+
+.Blue_o_1{
+    position: absolute;
+    top: 21vw;
+    margin-left: 80vw;
+    width: 5vw;
+    z-index: -1000;
+}
+
+.Blue_o_2{
+    position: absolute;
+    top: 63vw;
+    margin-left: 20vw;
+    width: 5vw;
+    z-index: -1000;
+}
+
+.Blue_o_3{
+    position: absolute;
+    top: 65vw;
+    margin-left: 65vw;
+    width: 5vw;
+    z-index: -1000;
+}
+
+
+/*break points*/
+
+
+@media(min-width:1201px) and (max-width:1919px){
+
+}
+
+
+@media(min-width:1025px) and (max-width:1200px){
+    .Paxil_text{
+        font-size: 29px;
+    }
+}
+
+
+@media(min-width:769px) and (max-width:1024px){
+    .Paxil_text{
+        font-size: 27px;
+    }
+
+    .Big_footer_text{
+        font-size: 20px;
+    }
+
+    .Small_footer_text{
+        font-size: 12px;
+    }
+    
+    .Purplle_x_1{
+        position: absolute;
+        top: 15vw;
+        margin-left: 65vw;
+        width: 5vw;
+        transform: rotate(-6.8deg);
+        z-index: -1000;
+    }
+    
+    .Purplle_x_2{
+        position: absolute;
+        top: 87vw;
+        margin-left: 70vw;
+        width: 5vw;
+        transform: rotate(21.39deg);
+        z-index: -1000;
+    }
+    
+    .Purplle_x_3{
+        position: absolute;
+        top: 140vw;
+        margin-left: 83vw;
+        width: 5vw;
+        transform: rotate(13.68deg);
+        z-index: -1000;
+    }
+    
+    .Purplle_o_1{
+        position: absolute;
+        top: 78vw;
+        margin-left: 42vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Purplle_o_2{
+        position: absolute;
+        top: 157vw;
+        margin-left: 1vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Purplle_o_3{
+        position: absolute;
+        top: 180vw;
+        margin-left: 85vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Blue_x_1{
+        position: absolute;
+        top: 109vw;
+        margin-left: 50vw;
+        width: 5vw;
+        transform: rotate(-34.14deg);
+        z-index: -1000;
+    }
+    
+    .Blue_x_2{
+        position: absolute;
+        top: 162vw;
+        margin-left: 45vw;
+        width: 5vw;
+        transform: rotate(22.65deg);
+        z-index: -1000;
+    }
+    
+    .Blue_o_1{
+        position: absolute;
+        top: 47vw;
+        margin-left: 80vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Blue_o_2{
+        position: absolute;
+        top: 87vw;
+        margin-left: 20vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Blue_o_3{
+        position: absolute;
+        top: 125vw;
+        margin-left: 65vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+}
+
+
+@media(min-width:481px) and (max-width:768px){
+    .Paxil_logo{
+        height: 4vh;
+        margin-left: 1vw;
+    }
+
+    .Paxil{
+        height: 3vh;
+        margin-left: 1vw;
+    }
+
+    .header_text{
+        font-size: 20px;
+    }
+    
+    .OSMINOJEK{
+        display: none;
+    }
+    
+    .Paxil_text{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .Big_footer_text{
+        font-size: 15px;
+    }
+
+    .Small_footer_text{
+        font-size: 5px;
+    }
+
+    .Footer_logo{
+        width: 3.5vw;
+    }
+    
+    .Purplle_x_1{
+        position: absolute;
+        top: 15vw;
+        margin-left: 65vw;
+        width: 5vw;
+        transform: rotate(-6.8deg);
+        z-index: -1000;
+    }
+    
+    .Purplle_x_2{
+        position: absolute;
+        top: 87vw;
+        margin-left: 70vw;
+        width: 5vw;
+        transform: rotate(21.39deg);
+        z-index: -1000;
+    }
+    
+    .Purplle_x_3{
+        position: absolute;
+        top: 140vw;
+        margin-left: 83vw;
+        width: 5vw;
+        transform: rotate(13.68deg);
+        z-index: -1000;
+    }
+    
+    .Purplle_o_1{
+        position: absolute;
+        top: 78vw;
+        margin-left: 42vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Purplle_o_2{
+        position: absolute;
+        top: 157vw;
+        margin-left: 1vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Purplle_o_3{
+        position: absolute;
+        top: 180vw;
+        margin-left: 85vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Blue_x_1{
+        position: absolute;
+        top: 109vw;
+        margin-left: 50vw;
+        width: 5vw;
+        transform: rotate(-34.14deg);
+        z-index: -1000;
+    }
+    
+    .Blue_x_2{
+        position: absolute;
+        top: 162vw;
+        margin-left: 45vw;
+        width: 5vw;
+        transform: rotate(22.65deg);
+        z-index: -1000;
+    }
+    
+    .Blue_o_1{
+        position: absolute;
+        top: 47vw;
+        margin-left: 80vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Blue_o_2{
+        position: absolute;
+        top: 87vw;
+        margin-left: 20vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Blue_o_3{
+        position: absolute;
+        top: 125vw;
+        margin-left: 65vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+}
+
+
+@media(min-width:320px) and (max-width:480px){
+    .Paxil_logo{
+        display: none;
+    }
+
+    .Paxil{
+        height: 3vh;
+        margin-left: 1vw;
+    }
+
+    .header_text{
+        font-size: 17px;
+    }
+
+    .OSMINOJEK{
+        display: none;
+    }
+    
+    .Paxil_text{
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .Big_footer_text{
+        font-size: 10px;
+    }
+
+    .Small_footer_text{
+        font-size: 5px;
+    }
+
+    .Footer_logo{
+        width: 5.5vw;
+    }
+    
+    .Purplle_x_1{
+        position: absolute;
+        top: 15vw;
+        margin-left: 65vw;
+        width: 5vw;
+        transform: rotate(-6.8deg);
+        z-index: -1000;
+    }
+    
+    .Purplle_x_2{
+        position: absolute;
+        top: 87vw;
+        margin-left: 70vw;
+        width: 5vw;
+        transform: rotate(21.39deg);
+        z-index: -1000;
+    }
+    
+    .Purplle_x_3{
+        position: absolute;
+        top: 140vw;
+        margin-left: 83vw;
+        width: 5vw;
+        transform: rotate(13.68deg);
+        z-index: -1000;
+    }
+    
+    .Purplle_o_1{
+        position: absolute;
+        top: 78vw;
+        margin-left: 42vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Purplle_o_2{
+        position: absolute;
+        top: 157vw;
+        margin-left: 1vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Purplle_o_3{
+        position: absolute;
+        top: 180vw;
+        margin-left: 85vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Blue_x_1{
+        position: absolute;
+        top: 109vw;
+        margin-left: 50vw;
+        width: 5vw;
+        transform: rotate(-34.14deg);
+        z-index: -1000;
+    }
+    
+    .Blue_x_2{
+        position: absolute;
+        top: 162vw;
+        margin-left: 45vw;
+        width: 5vw;
+        transform: rotate(22.65deg);
+        z-index: -1000;
+    }
+    
+    .Blue_o_1{
+        position: absolute;
+        top: 47vw;
+        margin-left: 80vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Blue_o_2{
+        position: absolute;
+        top: 87vw;
+        margin-left: 20vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+    
+    .Blue_o_3{
+        position: absolute;
+        top: 125vw;
+        margin-left: 65vw;
+        width: 5vw;
+        z-index: -1000;
+    }
+}
